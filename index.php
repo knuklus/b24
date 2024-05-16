@@ -17,5 +17,3 @@ if (\Bitrix\Main\Loader::includeModule("intranet"))
 }
 
 require_once($_SERVER["DOCUMENT_ROOT"].BX_ROOT."/modules/main/include/epilog_after.php");
-
-Bitrix\Main\UserTable::add([])
